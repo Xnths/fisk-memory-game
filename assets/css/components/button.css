@@ -1,0 +1,16 @@
+.button{
+    background-color: var(--red);
+    border: none;
+    border-bottom: var(--contrast-border);
+    color: var(--font);
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0.75rem 4rem;
+    text-decoration: none;
+    transition: background-color 500ms;
+}
+.button:hover{
+    background-color: var(--red-contrast);
+    border-bottom: 2px solid #f71010;
+    cursor: pointer;
+}

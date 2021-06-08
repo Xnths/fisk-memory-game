@@ -1,0 +1,6 @@
+.board__card{
+    background-color: white;
+    border-bottom: 3px solid gray;
+    height: 25vh;
+    width: calc(20% - 2rem);
+}

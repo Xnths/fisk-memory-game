@@ -1,0 +1,7 @@
+.photos{
+    grid-area: "photos";
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    height: calc(100vh - var(--logo-size));
+}

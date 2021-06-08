@@ -1,0 +1,6 @@
+.bulletin-board{
+    background-color: var(--red-contrast);
+    grid-area: "bulletin-board";
+    margin: 0;
+    padding: 1rem;
+}

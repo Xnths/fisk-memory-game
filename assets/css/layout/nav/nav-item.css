@@ -1,0 +1,14 @@
+.nav__item{
+    list-style: none;
+    padding: 0.5rem 0;
+}
+.nav__item:last-child .nav__link{
+    margin-right: 0;
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+    transition: background-color 500ms;
+}
+.nav__item:last-child .nav__link:hover{
+    background-color: var(--red-contrast);
+}

@@ -1,0 +1,11 @@
+.bulletin-board__item-action{
+    background: none;
+    border: none;
+    color: var(--font);
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+.bulletin-board__item-action:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,5 @@
+.bulletin-board__item-createdAt{
+    color: var(--gray);
+    font-size: 0.7rem;
+    text-align: right;
+}

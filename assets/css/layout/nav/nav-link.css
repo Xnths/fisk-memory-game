@@ -1,0 +1,11 @@
+.nav__link{
+    color: var(--font);
+    margin-right: 1.25rem;
+    text-decoration: none;
+}
+.nav__link:hover{
+    border-bottom: 1px solid white;
+}
+.nav__link.active{
+    border-bottom: 1px solid white;
+}

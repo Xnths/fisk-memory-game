@@ -1,0 +1,9 @@
+.bulletin-board__item-author{
+    color: var(--gray);
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: right;
+}
+.bulletin-board__item-author::before{
+    content: "- ";
+}

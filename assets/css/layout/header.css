@@ -1,0 +1,13 @@
+.header{
+    align-items: center;
+    background-color: var(--header);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+@media screen and (max-width: 768px){
+    .header{
+        justify-content: center;
+        height: 5rem;
+    }
+}

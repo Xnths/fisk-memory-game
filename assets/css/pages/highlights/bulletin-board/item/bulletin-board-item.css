@@ -1,0 +1,9 @@
+.bulletin-board__item{
+    background-color: var(--red);
+    margin: 0.8rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    width: calc(30% - 0.5rem);
+}
+.bulletin-board__item:nth-child(3n){
+    margin: 0;
+}

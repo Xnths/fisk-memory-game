@@ -1,0 +1,5 @@
+.photos__principal{
+    background: url('../../../../img/pages/highlights/forth-july.jpg') center / cover no-repeat;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}

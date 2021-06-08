@@ -1,0 +1,6 @@
+.about__button{
+    left: 50%;
+    position: absolute;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}

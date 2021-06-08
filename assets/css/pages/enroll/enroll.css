@@ -1,0 +1,7 @@
+.enroll{
+    background-color: var(--red-contrast);
+    border-radius: 1rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 50%;
+}

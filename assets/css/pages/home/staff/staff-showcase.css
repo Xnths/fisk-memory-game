@@ -1,0 +1,4 @@
+.staff__showcase{
+    display: flex;
+    flex-wrap: wrap;
+}

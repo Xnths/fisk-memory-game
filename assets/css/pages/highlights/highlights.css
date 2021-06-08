@@ -1,0 +1,9 @@
+.highlights{
+    display: grid;
+    grid-template-areas: 
+        "photos"
+        "post"
+        "bulletin-board";
+    grid-template-columns: auto;
+    grid-template-rows: calc(100vh - var(--logo-size)) auto auto;
+}

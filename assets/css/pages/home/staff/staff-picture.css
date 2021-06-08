@@ -1,0 +1,28 @@
+.staff__picture{
+    width: 9rem;
+    height: 15rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.staff__picture--carina{
+    background-image: url('../../../../img/staff/carina.png');
+}
+.staff__picture--castilho{
+    background-image: url('../../../../img/staff/castilho.png');
+}
+.staff__picture--jeff{
+    background-image: url('../../../../img/staff/jeff.png');
+}
+.staff__picture--lucas{
+    background-image: url('../../../../img/staff/lucas.png');
+}
+.staff__picture--paola{
+    background-image: url('../../../../img/staff/paola.png');
+}
+.staff__picture--veri{
+    background-image: url('../../../../img/staff/veri.png');
+}
+.staff__picture--yasmin{
+    background-image: url('../../../../img/staff/yasmin.png');
+}

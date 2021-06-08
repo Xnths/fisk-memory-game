@@ -1,0 +1,18 @@
+/* Align items in the bottom a div
+.box{
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}*/
+.box{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: var(--background-contrast);
+    width: 100%;
+    height: 100%;
+    transition: 500ms opacity;
+}
+.box:hover{
+    opacity: 0;
+}

@@ -1,0 +1,9 @@
+.board__card--word{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: center;
+}

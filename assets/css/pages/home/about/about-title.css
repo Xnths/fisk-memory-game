@@ -1,0 +1,10 @@
+.about__title{
+    font-weight: 100;
+    font-size: 2rem;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    width: 100%
+}

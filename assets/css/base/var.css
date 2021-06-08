@@ -1,0 +1,22 @@
+:root{
+    --header: #F94144;
+    --font: #fff;
+    --red-contrast: #fd4c4c;
+    --gray: rgb(176, 173, 173);
+
+    --red: #F94144;
+    --dark-orange: #F3722C;
+    --light-orange: #F8961E;
+    --yellow: #F9C74F;
+    --green: #90BE6D;
+    --light-blue: #43AA8B;
+    --dark-blue: #577590;
+
+    --background-contrast: rgba(9,8,8,0.88);
+    --contrast-border: 2px solid rgb(249, 36, 36);
+    --font-default: 'Roboto', sans-serif;
+
+    --logo-size: 6rem;
+
+    --margin: 3%
+}

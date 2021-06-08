@@ -1,0 +1,15 @@
+.photos__secondary:nth-child(2){
+    background: url('../../../../img/pages/highlights/halloween.jpg') top / cover no-repeat;
+}
+.photos__secondary:nth-child(3){
+    background: url('../../../../img/pages/highlights/garage-sale.jpg') center / cover no-repeat;
+}
+.photos__secondary:nth-child(4){
+    background: url('../../../../img/pages/highlights/teachers-day.jpg') center / cover no-repeat;
+}
+.photos__secondary:nth-child(5){
+    background: url('../../../../img/pages/highlights/childrens-day.jpg') top / cover no-repeat;
+}
+.photos__secondary:nth-child(6){
+    background: url('../../../../img/pages/highlights/saint-patricks-day.jpg') center / cover no-repeat;
+}

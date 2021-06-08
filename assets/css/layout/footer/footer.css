@@ -1,0 +1,6 @@
+.footer{
+    align-items: center;
+    background-color: var(--red);
+    display:flex;
+    flex-direction: column;
+}

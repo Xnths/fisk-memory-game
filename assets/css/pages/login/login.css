@@ -1,0 +1,7 @@
+.login{
+    background-color: var(--red-contrast);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 1rem auto;
+    width: 25%;
+}

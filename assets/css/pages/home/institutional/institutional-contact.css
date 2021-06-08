@@ -1,0 +1,15 @@
+.institutional__contact{
+    font-size: 1rem;
+    margin: 1rem auto;
+    text-align: center;
+}
+.institutional__contact-cellphone{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.institutional__contact-email{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}

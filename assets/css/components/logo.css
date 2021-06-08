@@ -1,0 +1,8 @@
+.logo{
+    width: var(--logo-size);
+}
+@media screen and (max-width: 768px) {
+    .header__logo{
+        display: none;
+    }
+}
