@@ -43,14 +43,10 @@ function init() {
 
 let card = [];
 
-function turnCard(element) {
-    card.push(element);
-    element.classList.add('turn-card');
-    element.classList.add('active');
+function showTheBackCard(element) {
     setTimeout(() => {
         if (element.className == "board__card board__card--image turn-card active") {
             const fileName = words[element.dataset.id].replace(' ', '-') + ".jpg";
-
             element.src = `./assets/img/te1/lesson8/${fileName}`
         }
         if (element.className == "board__card board__card--word turn-card active") {
@@ -59,10 +55,18 @@ function turnCard(element) {
     }, 300)
 }
 
+function turnCard(element) {
+    card.push(element);
+
+    element.classList.add('turn-card');
+    element.classList.add('active');
+
+    showTheBackCard(element);
+}
+
 function checkCards() {
     const firstCardPickedId = card[0].dataset.id;
     const secondCardPickedId = card[1].dataset.id;
-    console.log(firstCardPickedId == secondCardPickedId);
 
     if (firstCardPickedId != secondCardPickedId) {
         setTimeout(() => {
@@ -70,7 +74,6 @@ function checkCards() {
                 element.classList.remove('turn-card');
                 element.classList.remove('active');
                 element.classList.add('turn-card--reverse')
-                console.log(element.className)
 
                 if (element.className == "board__card board__card--image turn-card--reverse") {
                     element.src = "";
@@ -84,7 +87,6 @@ function checkCards() {
                     element.classList.remove('turn-card--reverse')
 
                     card = [];
-
                     isSelectOn = true;
                 }, 1000)
             })
@@ -99,7 +101,7 @@ function checkCards() {
             card = [];
 
             isSelectOn = true;
-        }, 2000);
+        }, 1000);
     }
 }
 
@@ -107,11 +109,11 @@ board.addEventListener('click', event => {
     if (isSelectOn && !card.includes(event.target) && event.target.dataset.id && event.target.className != "board__card board__card--image correct" && event.target.className != "board__card board__card--word correct") {
         turnCard(event.target);
     }
-    if (card.length >= 2) {
+
+    if (card.length > 1) {
         checkCards();
         isSelectOn = false;
     }
-
 })
 
 init();
