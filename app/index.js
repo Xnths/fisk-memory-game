@@ -48,10 +48,14 @@ function turnCard(element) {
     element.classList.add('turn-card');
     element.classList.add('active');
     setTimeout(() => {
-        if (element)
-            if (element.className == "board__card board__card--word turn-card active") {
-                element.innerHTML = words[element.dataset.id]
-            }
+        if (element.className == "board__card board__card--image turn-card active") {
+            const fileName = words[element.dataset.id].replace(' ', '-') + ".jpg";
+
+            element.src = `./assets/img/te1/lesson8/${fileName}`
+        }
+        if (element.className == "board__card board__card--word turn-card active") {
+            element.innerHTML = words[element.dataset.id]
+        }
     }, 300)
 }
 
@@ -67,6 +71,10 @@ function checkCards() {
                 element.classList.remove('active');
                 element.classList.add('turn-card--reverse')
                 console.log(element.className)
+
+                if (element.className == "board__card board__card--image turn-card--reverse") {
+                    element.src = "";
+                }
 
                 if (element.className == "board__card board__card--word turn-card--reverse" || element.className == "board__card board__card--image turn-card--reverse") {
                     element.innerHTML = "";
